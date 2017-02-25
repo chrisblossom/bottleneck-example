@@ -100,6 +100,7 @@ while (count <= 8) {
 status();
 setInterval(() => {
     status();
+    console.log('next status in 4 seconds');
 }, 4000)
 
 setTimeout(() => {

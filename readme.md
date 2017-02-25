@@ -31,13 +31,13 @@ limiter2 **1 done
 limiter3 **1 done
 limiter4 **1 done
 limiter1 **** 2 ****
+limiter2 **** 2 ****
 limiter3 **** 2 ****
 limiter4 **** 2 ****
-limiter2 **** 2 ****
 limiter1 **2 done
+limiter2 **2 done
 limiter3 **2 done
 limiter4 **2 done
-limiter2 **2 done
 limiter1.nbQueued: 4
 limiter1.nbRunning: 2
 limiter2.nbQueued: 4
@@ -46,6 +46,7 @@ limiter3.nbQueued: 4
 limiter3.nbRunning: 2
 limiter4.nbQueued: 4
 limiter4.nbRunning: 2
+next status in 4 seconds
 **STOPPING ALL LIMITERS START**
 limiter1.nbQueued: 4
 limiter1.nbRunning: 2
@@ -80,6 +81,7 @@ limiter3.nbQueued: 0
 limiter3.nbRunning: 1
 limiter4.nbQueued: 0
 limiter4.nbRunning: 1
+next status in 4 seconds
 limiter1.nbQueued: 0
 limiter1.nbRunning: 1
 limiter2.nbQueued: 0
@@ -88,6 +90,16 @@ limiter3.nbQueued: 0
 limiter3.nbRunning: 1
 limiter4.nbQueued: 0
 limiter4.nbRunning: 1
+next status in 4 seconds
+limiter1.nbQueued: 0
+limiter1.nbRunning: 1
+limiter2.nbQueued: 0
+limiter2.nbRunning: 1
+limiter3.nbQueued: 0
+limiter3.nbRunning: 1
+limiter4.nbQueued: 0
+limiter4.nbRunning: 1
+next status in 4 seconds
 ^C
 ➜  bottleneck-example git:(master) ✗
 ```
