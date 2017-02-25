@@ -26,18 +26,18 @@ limiter1 **** 1 ****
 limiter2 **** 1 ****
 limiter3 **** 1 ****
 limiter4 **** 1 ****
-limiter1 **message done
-limiter2 **message done
-limiter3 **message done
-limiter4 **message done
+limiter1 **1 done
+limiter2 **1 done
+limiter3 **1 done
+limiter4 **1 done
 limiter1 **** 2 ****
 limiter3 **** 2 ****
 limiter4 **** 2 ****
 limiter2 **** 2 ****
-limiter1 **message done
-limiter3 **message done
-limiter4 **message done
-limiter2 **message done
+limiter1 **2 done
+limiter3 **2 done
+limiter4 **2 done
+limiter2 **2 done
 limiter1.nbQueued: 4
 limiter1.nbRunning: 2
 limiter2.nbQueued: 4
@@ -70,8 +70,8 @@ limiter1 **** 3 ****
 limiter2 **** 3 ****
 limiter3 **** 3 ****
 limiter4 **** 3 ****
-limiter1 **message done
-limiter3 **message done
+limiter1 **3 done
+limiter3 **3 done
 limiter1.nbQueued: 0
 limiter1.nbRunning: 1
 limiter2.nbQueued: 0

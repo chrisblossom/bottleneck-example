@@ -57,7 +57,7 @@ let count = 1;
 while (count <= 8) {
     limiter1.schedule(sleep, '1', count)
         .then((message) => {
-            console.log(`limiter1 **message done`);
+            console.log(`limiter1 **${message} done`);
             // do stuff here
         })
         .catch(error => {
@@ -67,7 +67,7 @@ while (count <= 8) {
 
     limiter2.schedule(sleep, '2', count)
         .then((message) => {
-            console.log(`limiter2 **message done`);
+            console.log(`limiter2 **${message} done`);
             // do stuff here
         })
         .catch(error => {
@@ -77,7 +77,7 @@ while (count <= 8) {
 
     limiter3.schedule(sleep, '3', count)
         .then((message) => {
-            console.log(`limiter3 **message done`);
+            console.log(`limiter3 **${message} done`);
             // do stuff here
         })
         .catch(error => {
@@ -87,7 +87,7 @@ while (count <= 8) {
 
     limiter4.schedule(sleep, '4', count)
         .then((message) => {
-            console.log(`limiter4 **message done`);
+            console.log(`limiter4 **${message} done`);
             // do stuff here
         })
         .catch(error => {
