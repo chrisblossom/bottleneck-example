@@ -5,32 +5,32 @@ const Bottleneck = require('bottleneck');
 const limiter1 = new Bottleneck(
     2,
     2000,
-    undefined,
-    undefined,
+    null,
+    null,
     false
 );
 
 const limiter2 = new Bottleneck(
     2,
     2000,
-    undefined,
-    undefined,
+    null,
+    null,
     false
 );
 
 const limiter3 = new Bottleneck(
     2,
     2000,
-    undefined,
-    undefined,
+    null,
+    null,
     true
 );
 
 const limiter4 = new Bottleneck(
     2,
     2000,
-    undefined,
-    undefined,
+    null,
+    null,
     true
 );
 
