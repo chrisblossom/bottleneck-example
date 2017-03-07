@@ -6,12 +6,14 @@ const limiter1 = new Bottleneck(
     2,
     2000,
     undefined,
+    undefined,
     false
 );
 
 const limiter2 = new Bottleneck(
     2,
     2000,
+    undefined,
     undefined,
     false
 );
@@ -20,12 +22,14 @@ const limiter3 = new Bottleneck(
     2,
     2000,
     undefined,
+    undefined,
     true
 );
 
 const limiter4 = new Bottleneck(
     2,
     2000,
+    undefined,
     undefined,
     true
 );
